@@ -1,4 +1,4 @@
-// scoreTypes.js
+
 const ScoreType = Object.freeze({
   X: 'X',
   O: 'O',
@@ -87,7 +87,7 @@ class Cell {
         break;
     }
   }
-   reset() {  //not tested
+   reset() {  
     this.#value = 0;
   }
 }
