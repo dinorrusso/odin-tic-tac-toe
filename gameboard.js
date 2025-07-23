@@ -111,5 +111,5 @@ const checkWinner = () => {
     return null; // No winner yet, game continues
 }
   
-  return { getBoard, resetBoard, turn, nextTurn, placeToken, isGameOver, winner, displayValues};
+  return { getBoard, resetBoard, turn, nextTurn, placeToken, isGameOver, winner};
 } //end gameboard
