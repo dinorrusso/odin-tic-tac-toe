@@ -76,8 +76,8 @@ function uiController(){
     let col = cell.id%3;
     // use computed row, col to set the appropriate cell
 
-    board.placeToken(turn,row,col); //TODO TEST THIS
-    board.displayValues();
+    board.placeToken(turn,row,col); 
+    
 
 
     // if the game is not over setup for next turn
